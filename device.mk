@@ -3,7 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_MODELS ?= nova odin2 odin2mini odin2portal thor rp6
+TARGET_MODELS ?= nova odin2 odin2mini odin2portal thor rp6 parrot
+TARGET_MODELS_ANB ?= parrot
 
 TARGET_HAS_VIBRATOR := false
 
@@ -41,6 +42,11 @@ PRODUCT_COPY_FILES += \
     $(foreach model,$(TARGET_MODELS),device/ayn/odin2_ack/init/init.recovery.$(model).rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.$(model).rc) \
     device/ayn/odin2_ack/init/init.odin2_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.odin2_common.rc \
     device/ayn/odin2_ack/init/init.recovery.odin2_common.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.odin2_common.rc
+
+# Anbernic override
+PRODUCT_COPY_FILES += \
+    $(foreach model,$(TARGET_MODELS_ANB),device/ayn/odin2_ack/init/fstab.anbernic:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.$(model)) \
+    $(foreach model,$(TARGET_MODELS_ANB),device/ayn/odin2_ack/init/fstab.anbernic:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.$(model)) \
 
 # Audio
 PRODUCT_SOONG_NAMESPACES += \

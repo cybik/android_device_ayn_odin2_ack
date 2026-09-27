@@ -12,6 +12,7 @@ from extract_utils.main import (
 module = ExtractUtilsModule(
     'odin2_ack',
     'ayn',
+    'anbernic',
 )
 
 if __name__ == '__main__':

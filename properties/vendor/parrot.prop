@@ -1,0 +1,6 @@
+ro.product.vendor.device=parrot
+ro.product.vendor.model=odin2
+ro.product.vendor.name=RG55 G1
+ro.surface_flinger.game_default_frame_rate_override=166
+vendor.usb.product_string=RG55 G1
+vendor.hwc.drm.DSI-1.edid_path=qcom/sm8550/anbernic/parrot/AAAAAAAAAAAAAAAA.edid

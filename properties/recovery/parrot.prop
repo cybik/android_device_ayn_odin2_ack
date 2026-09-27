@@ -1,0 +1,7 @@
+ro.product.vendor.device=parrot
+ro.product.vendor.model=odin2
+ro.product.vendor.name=RG55 G1
+vendor.usb.product_string=RG55 G1
+ro.minui.default_rotation=ROTATION_LEFT
+ro.recovery.ui.brightness_file=/sys/class/backlight/panel0-backlight/brightness
+ro.recovery.ui.max_brightness_file=/sys/class/backlight/panel0-backlight/max_brightness
