@@ -34,4 +34,5 @@ $(eval $(call postinstall_dtbo_rule,odin2portal,ayntec))
 $(eval $(call postinstall_dtbo_rule,thor,ayntec))
 $(eval $(call postinstall_dtbo_rule,nova,retroidpocket))
 $(eval $(call postinstall_dtbo_rule,rp6,retroidpocket))
+$(eval $(call postinstall_dtbo_rule,parrot,anbernic))
 endif
