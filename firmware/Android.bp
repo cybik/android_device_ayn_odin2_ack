@@ -143,6 +143,21 @@ pil_squasher {
     relative_install_path: "qcom/sm8550/retroidpocket/rp6",
 }
 
+pil_squasher {
+    name: "qcom-sm8550-anbernic-parrot-adsp",
+    stem: "adsp.mbn",
+    mdt: "//vendor/ayn/odin2_ack:parrot_adsp_mdt",
+    srcs: ["//vendor/ayn/odin2_ack:parrot_adsp"],
+    relative_install_path: "qcom/sm8550/anbernic/parrot",
+}
+pil_squasher {
+    name: "qcom-sm8550-anbernic-parrot-adsp-dtb",
+    stem: "adsp_dtb.mbn",
+    mdt: "//vendor/ayn/odin2_ack:parrot_adsp_dtb_mdt",
+    srcs: ["//vendor/ayn/odin2_ack:parrot_adsp_dtb"],
+    relative_install_path: "qcom/sm8550/anbernic/parrot",
+}
+
 prebuilt_firmware {
     name: "qcom-sm8550-ayn-odin2-edids",
     srcs: [
@@ -211,6 +226,17 @@ prebuilt_firmware {
     vendor: true,
 }
 
+prebuilt_firmware {
+    name: "qcom-sm8550-anbernic-parrot-edids",
+    srcs: [
+        "qcom/sm8550/anbernic/parrot/1080x1920.edid",
+    ],
+    dsts: [
+        "qcom/sm8550/anbernic/parrot/1080x1920.edid",
+    ],
+    vendor: true,
+}
+
 phony {
     name: "qcom-sm8550-ayn",
     required: [
@@ -249,5 +275,6 @@ phony {
         "qcom-sm8550-ayn-odin2portal-edids",
         "qcom-sm8550-ayn-thor-edids",
         "qcom-sm8550-ayn-rp6-edids",
+        "qcom-sm8550-anbernic-parrot-edids",
     ],
 }
