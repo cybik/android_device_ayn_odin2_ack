@@ -26,3 +26,7 @@ stack_depot_disable=on kasan.stacktrace=off kvm-arm.mode=protected cgroup_disabl
 Used: https://askubuntu.com/questions/81370/how-to-create-extract-the-edid-for-from-a-monitor
 
 Found: /sys/class/drm -> card0-DSI-1 has edid
+
+## More horrible data
+
+https://github.com/ROCKNIX/rocknix-joypad - likely required for the controller.
