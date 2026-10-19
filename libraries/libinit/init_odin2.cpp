@@ -24,7 +24,7 @@ static std::unordered_map<std::string, odin2_device> kOdin2Devices = {
         { "odin2portal", { "odin2", "odin2portal", "Odin 2 Portal" }},
         { "thor",        { "odin2", "thor",        "Thor"          }},
         { "rp6",         { "odin2", "rp6",         "Pocket 6"      }},
-        { "parrot",      { "odin2", "parrot",      "RG55 G1"       }},
+        { "rg55g1",      { "odin2", "rg55g1",      "RG55 G1"       }},
 };
 
 static void set_properties(odin2_device *chosen_device)

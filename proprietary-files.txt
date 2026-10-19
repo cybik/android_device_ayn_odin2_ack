@@ -503,9 +503,9 @@ modem/image/battmgr.jsn:vendor/firmware/qcom/sm8550/retroidpocket/rp6/battmgr.js
 ./xbl_config.elf:product/etc/firmware/rp6_xbl_config.img|ed2a3d6f6f11e98c50950e066407681aeb17b0d8
 
 # Parrott / RG55 G1 Bootloader
-./abl.elf:product/etc/firmware/parrot_abl.img|a4abc1c3afabf9306b5f44a43f1a305b5062185b
-./BTFM.bin:product/etc/firmware/parrot_bluetooth.img|2558928428723ed99df2c288516504e71a972eac
-./multi_image.mbn:product/etc/firmware/parrot_multiimgoem.img|201a126a77bd68220241b215236a2056b67c643a
-./uefi.elf:product/etc/firmware/parrot_uefi.img|e57c11875e36d2b290fbdba468823cd9202ff47d
-./xbl_s.melf:product/etc/firmware/parrot_xbl.img|056331db7ef8533e62903b69be2c8a58cccca723
-./xbl_config.elf:product/etc/firmware/parrot_xbl_config.img|891d12f960c1f6ad5a44c95f9843c28680ea79c7
+./abl.elf:product/etc/firmware/rg55g1_abl.img|a4abc1c3afabf9306b5f44a43f1a305b5062185b
+./BTFM.bin:product/etc/firmware/rg55g1_bluetooth.img|2558928428723ed99df2c288516504e71a972eac
+./multi_image.mbn:product/etc/firmware/rg55g1_multiimgoem.img|201a126a77bd68220241b215236a2056b67c643a
+./uefi.elf:product/etc/firmware/rg55g1_uefi.img|e57c11875e36d2b290fbdba468823cd9202ff47d
+./xbl_s.melf:product/etc/firmware/rg55g1_xbl.img|056331db7ef8533e62903b69be2c8a58cccca723
+./xbl_config.elf:product/etc/firmware/rg55g1_xbl_config.img|891d12f960c1f6ad5a44c95f9843c28680ea79c7

@@ -30,3 +30,7 @@ Found: /sys/class/drm -> card0-DSI-1 has edid
 ## More horrible data
 
 https://github.com/ROCKNIX/rocknix-joypad - likely required for the controller.
+
+## Still unchanged against anbernic config
+
+* board-2.json

@@ -1,4 +1,4 @@
-parrot:/etc $ cat /proc/mounts                                                                                                                                                                                                                                                   
+rg55g1:/etc $ cat /proc/mounts                                                                                                                                                                                                                                                   
 /dev/block/dm-6 / ext4 ro,seclabel,relatime,discard 0 0
 tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=2781456k,nr_inodes=695364,mode=755 0 0
 devpts /dev/pts devpts rw,seclabel,relatime,mode=600,ptmxmode=000 0 0

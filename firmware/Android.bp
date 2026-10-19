@@ -144,18 +144,18 @@ pil_squasher {
 }
 
 pil_squasher {
-    name: "qcom-sm8550-anbernic-parrot-adsp",
+    name: "qcom-sm8550-anbernic-rg55g1-adsp",
     stem: "adsp.mbn",
-    mdt: "//vendor/ayn/odin2_ack:parrot_adsp_mdt",
-    srcs: ["//vendor/ayn/odin2_ack:parrot_adsp"],
-    relative_install_path: "qcom/sm8550/anbernic/parrot",
+    mdt: "//vendor/ayn/odin2_ack:rg55g1_adsp_mdt",
+    srcs: ["//vendor/ayn/odin2_ack:rg55g1_adsp"],
+    relative_install_path: "qcom/sm8550/anbernic/rg55g1",
 }
 pil_squasher {
-    name: "qcom-sm8550-anbernic-parrot-adsp-dtb",
+    name: "qcom-sm8550-anbernic-rg55g1-adsp-dtb",
     stem: "adsp_dtb.mbn",
-    mdt: "//vendor/ayn/odin2_ack:parrot_adsp_dtb_mdt",
-    srcs: ["//vendor/ayn/odin2_ack:parrot_adsp_dtb"],
-    relative_install_path: "qcom/sm8550/anbernic/parrot",
+    mdt: "//vendor/ayn/odin2_ack:rg55g1_adsp_dtb_mdt",
+    srcs: ["//vendor/ayn/odin2_ack:rg55g1_adsp_dtb"],
+    relative_install_path: "qcom/sm8550/anbernic/rg55g1",
 }
 
 prebuilt_firmware {
@@ -227,12 +227,12 @@ prebuilt_firmware {
 }
 
 prebuilt_firmware {
-    name: "qcom-sm8550-anbernic-parrot-edids",
+    name: "qcom-sm8550-anbernic-rg55g1-edids",
     srcs: [
-        "qcom/sm8550/anbernic/parrot/1080x1920.edid",
+        "qcom/sm8550/anbernic/rg55g1/1080x1920.edid",
     ],
     dsts: [
-        "qcom/sm8550/anbernic/parrot/1080x1920.edid",
+        "qcom/sm8550/anbernic/rg55g1/1080x1920.edid",
     ],
     vendor: true,
 }
@@ -275,6 +275,6 @@ phony {
         "qcom-sm8550-ayn-odin2portal-edids",
         "qcom-sm8550-ayn-thor-edids",
         "qcom-sm8550-ayn-rp6-edids",
-        "qcom-sm8550-anbernic-parrot-edids",
+        "qcom-sm8550-anbernic-rg55g1-edids",
     ],
 }
